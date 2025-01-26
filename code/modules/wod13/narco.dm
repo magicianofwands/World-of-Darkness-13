@@ -51,6 +51,12 @@
 	always_available = TRUE
 	category = CAT_DRUGS
 
+/datum/crafting_recipie/weed_leaf2
+	name = "Sort Weed x5"
+	time = 25
+	reqs = list(obj/item/food/vampire/weed = 5)
+	result = list(/obj/item/weedpack = 5)
+
 /datum/crafting_recipe/weed_blunt
 	name = "Roll Blunt"
 	time = 10
